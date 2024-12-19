@@ -72,15 +72,15 @@
     font-size: 20px;
     margin: 0 10px;
     cursor: pointer;
-    color: inherit; /* Наследует цвет текста из темы */
+    color: inherit;
 }
 
 .music-player .volume-control input[type="range"] {
     width: 100px;
     cursor: pointer;
-    accent-color: #007bff; /* Цвет ползунка */
+    accent-color: #007bff;
 }
 
 .music-player.dark .volume-control input[type="range"] {
-    accent-color: #00c8ff; /* Цвет ползунка в тёмной теме */
+    accent-color: #00c8ff;
 }
